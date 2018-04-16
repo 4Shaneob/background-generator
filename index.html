@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gradient Background Exercise</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="gradient">
+	<h1>Background Generator Exercise</h1>
+	<!--  <input class="colour1" type="color" name="colour1" value="#00ff00"> -->
+	
+
+	<input oninput="setGradient()" class="colour1" type="color" name="colour1" value="#ff0000">
+	
+	
+	<input class="colour2" type="color" name="colour2" value="#ffff00">
+	<!-- 	 <button id="button">Click for current Background</button>
+ --><p></p>
+
+ 	<h2>Current CSS Background (Above)</h2>
+
+	<h3></h3>
+	<input id="random" type="button" name="button" value="random">
+	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+<!-- Uncaught SyntaxError: Unexpected identifier -->
+	<!-- 1. Write code so that the colour inputs match the background generated on the first page load. --> 
+	<!-- cheated using (https://www.w3schools.com/colors/colors_converter.asp) I got hex for red and yellow -->
+
+
+	<!-- 2. Display the initial CSS linear gradient property on page load. -->
+	
+	<!-- Then eventually after an hour of research had it all wrong, got error saying it was a null value
+	eventually realised I had to add the full content of setGradient function, and call when: window.addEventListener("load", currentGradient);" 
+	now working
+	-->
+
+	<!--  -->
